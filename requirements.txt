@@ -1,0 +1,23 @@
+# Core
+yfinance>=0.2.38
+pandas>=2.1.0
+numpy>=1.26.0
+pandas-ta>=0.3.14b
+
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# Scheduling
+APScheduler>=3.10.4
+
+# Broker integrations (install as needed)
+alpaca-trade-api>=3.0.2       # for Alpaca
+requests>=2.31.0              # for Tradier REST calls
+
+# Data / persistence
+pytz>=2024.1
+
+# Optional: TA-Lib (requires C build)
+# TA-Lib>=0.4.28
